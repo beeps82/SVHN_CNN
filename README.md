@@ -1,14 +1,13 @@
 # SVHN_CNN
-Four digit SVHN (horizontal) sequence prediction with CNN using Keras 
+Four digit SVHN (horizontal) sequence prediction with CNN using Keras with TensorFlow backend
 
 This was my final project submission for the GaTech OMSCS 6476, Computer Vision. 
 
 Classification and Detection with Convolutional Neural Networks
 
-Binu Enchakalody
- binuen@gatech.edu
+binuen@gatech.edu
  
-Abstract:
+## Abstract:
 Automatic detection of digits and numbers is a task where recent work in neural networks and computer vision has shown a lot of promise. 
 The goal of this project is to replicate earlier results [2][1] using multiple Convolutional Neural Network (CNN) 
 models to predict a sequence of numbers. The Street View House Number (SVHN) data set which has ~250,000 labelled images were used 
@@ -19,11 +18,15 @@ the VGG-16 model. The bench mark is a reported 96% test accuracy on the entire d
 the ‘ImageNet’ weights showed the best accuracy. This model is tested on real-life detection scenarios using a 10-level
 image pyramid with sliding window detection to tackle digit sequence variance with size and scale. 
 
-Data was extrated from http://ufldl.stanford.edu/housenumbers/
+#### Data http://ufldl.stanford.edu/housenumbers/
 
-Preformance Analysis
+#### Reference Paper https://arxiv.org/pdf/1312.6082.pdf
 
-Model	      TrainLoss	TestLoss	ValLoss	TrainSeq.Accuracy%	ValSeq.Accuracy%	TestSeq.Accuracy%
+
+
+## Performance Analysis
+
+#### Model	      TrainLoss	TestLoss	ValLoss	TrainSeq.Accuracy%	ValSeq.Accuracy%	TestSeq.Accuracy%
 
 VGGPreTrain	  0.17	    0.76	    0.88	  96.62	            87.91	            91.24
 
@@ -32,5 +35,4 @@ VGG16 	      0.49	    1.10	    0.9	    90.8	            86.87	            82.16
 Designed	    0.41	    0.87	    0.75	  91.53	            87.99	            85.40
 
 
-Read report.pdf for more details.
-https://github.com/beeps82/SVHN_CNN/blob/master/Report.pdf
+##### More details https://github.com/beeps82/SVHN_CNN/blob/master/Report.pdf
