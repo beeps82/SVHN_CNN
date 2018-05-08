@@ -1,9 +1,7 @@
-# SVHN_CNN
-Four digit SVHN (horizontal) sequence prediction with CNN using Keras with TensorFlow backend
+# Classification and Detection with Convolutional Neural Networks
+Four digit(horizontal) sequence prediction with CNN using Keras with TensorFlow backend
 
-This was my final project submission for the GaTech OMSCS 6476, Computer Vision. 
-
-Classification and Detection with Convolutional Neural Networks
+This was my final project submission for the GaTech OMSCS 6476, Computer Vision, Spring 2018. 
 
 binuen@gatech.edu
  
