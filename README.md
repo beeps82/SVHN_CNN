@@ -1,5 +1,5 @@
 # SVHN_CNN
-Four digit SVHN (horizontal)sequenceprediction with CNN using Keras 
+Four digit SVHN (horizontal) sequence prediction with CNN using Keras 
 
 This was my final project submission for the GaTech OMSCS 6476, Computer Vision. 
 
