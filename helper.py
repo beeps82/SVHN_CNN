@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 def extract_trainRGB():
     train = os.path.join("train")
-    dirname = 'C:/OMSCS/CompVision_CS6476/finalProjectData/train/'
+    dirname = 'finalProjectData/train/'
     out = sc.loadmat(os.path.join(dirname,'trainDigits.mat'))
     data = out["digitStruct"]
     bbox = data['bbox'].squeeze()
@@ -115,8 +115,8 @@ def extract_trainRGB():
 
 def extract_testRGB():
     test = os.path.join("test")
-    # dirname = 'C:/OMSCS/CompVision_CS6476/finalProjectData/test/'
-    # out = sc.loadmat('C:/OMSCS/CompVision_CS6476/finalProjectData/test/testDigits.mat')
+    # dirname = 'finalProjectData/test/'
+    # out = sc.loadmat('finalProjectData/test/testDigits.mat')
     dirname = 'test/'
     out = sc.loadmat('test/testDigits.mat')
     data = out["digitStruct"]
