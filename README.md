@@ -19,6 +19,8 @@ the VGG-16 model. The bench mark is a reported 96% test accuracy on the entire d
 the ‘ImageNet’ weights showed the best accuracy. This model is tested on real-life detection scenarios using a 10-level
 image pyramid with sliding window detection to tackle digit sequence variance with size and scale. 
 
+Data was extrated from http://ufldl.stanford.edu/housenumbers/
+
 Preformance Analysis
 
 Model	      TrainLoss	TestLoss	ValLoss	TrainSeq.Accuracy%	ValSeq.Accuracy%	TestSeq.Accuracy%
