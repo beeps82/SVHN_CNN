@@ -28,3 +28,6 @@ VGGPreTrain	  0.17	    0.76	    0.88	  96.62	            87.91	            91.24
 VGG16 	      0.49	    1.10	    0.9	    90.8	            86.87	            82.16
 
 Designed	    0.41	    0.87	    0.75	  91.53	            87.99	            85.40
+
+
+Read report.pdf for more details.
