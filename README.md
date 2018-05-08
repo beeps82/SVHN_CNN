@@ -33,3 +33,4 @@ Designed	    0.41	    0.87	    0.75	  91.53	            87.99	            85.40
 
 
 Read report.pdf for more details.
+https://github.com/beeps82/SVHN_CNN/blob/master/Report.pdf
