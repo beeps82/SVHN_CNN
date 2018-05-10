@@ -18,6 +18,10 @@ import tensorflow as tf
 import pickle
 import matplotlib.pyplot as ply
 
+# Includes training models: Designed, VGG-16, VGG-16 Pre Trained 
+# & Metrics and plots to measure performance
+#
+#
 # I/O directories
 test_dir = "test"
 train_dir = "train"
