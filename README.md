@@ -1,10 +1,9 @@
 # Classification and Detection with Convolutional Neural Networks
 Four digit(horizontal) sequence prediction with CNN using Keras with TensorFlow backend
 
-This was my final project submission for the GaTech OMSCS 6476, Computer Vision, Spring 2018. 
+![House](figs/13.png) ![Multiple House](figs/15copy.png) ![GAtechCC](figs/3.png)
 
-binuen@gatech.edu
- 
+
 ## Abstract:
 Automatic detection of digits and numbers is a task where recent work in neural networks and computer vision has shown a lot of promise. 
 The goal of this project is to replicate earlier results [2][1] using multiple Convolutional Neural Network (CNN) 
@@ -20,7 +19,10 @@ image pyramid with sliding window detection to tackle digit sequence variance wi
 
 #### Reference Paper https://arxiv.org/pdf/1312.6082.pdf
 
+![Approach](figs/Picture2.png)
 
+Designed Architecture
+![Architecture](figs/Architecture.png)
 
 ## Performance Analysis
 
