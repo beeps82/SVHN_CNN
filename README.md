@@ -20,12 +20,17 @@ The reported train and test sequence accuracies are 91.53% Train and
 85.4% Test for own architecture, 96.6% Train and 91.24% Test for Pre-Trained VGG-16, 90.8% and 82.1% train and test accuracies for 
 the VGG-16 model. The bench mark is a reported 96% test accuracy on the entire data set [1]. The pre-trained VGG-16 model which uses 
 the ‘ImageNet’ weights showed the best accuracy. This model is tested on real-life detection scenarios using a 10-level
-image pyramid with sliding window detection to tackle digit sequence variance with size and scale. 
+image pyramid with sliding window detection to tackle digit sequence variance with size and scale. Ian GoodFellow's Reference Paper https://arxiv.org/pdf/1312.6082.pdf
 
 
-#### Data http://ufldl.stanford.edu/housenumbers/
+#### Dataset 
+The original stanford dataset has been reformatted from the '.mat' to '.h5' format for easier access 
+The reformatted data used (in helper.prepDataForCNN) can be downloaded from 
+###### https://my.pcloud.com/publink/show?code=kZsxCO7ZdnzmYqXWO6ydqkC5kz114f5zUUaV  (Reformatted .h5)
+###### http://ufldl.stanford.edu/housenumbers/ (Original .mat)
 
-#### Reference Paper https://arxiv.org/pdf/1312.6082.pdf
+
+
 
 ![Approach](figs/Picture2.png)
 
