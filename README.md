@@ -30,6 +30,8 @@ The reformatted data used (in helper.prepDataForCNN) can be downloaded from
 ###### http://ufldl.stanford.edu/housenumbers/ (Original .mat)
 
 
+#### Models
+##### https://my.pcloud.com/publink/show?code=kZsPnA7ZuMoiRGBAw0X4k7lGrU2CyFH2liey (Pretrained VGG and designed)
 
 
 ![Approach](figs/Picture2.png)
