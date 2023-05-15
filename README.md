@@ -25,7 +25,7 @@ image pyramid with sliding window detection to tackle digit sequence variance wi
 
 #### Dataset 
 The original stanford dataset has been reformatted from the '.mat' to '.h5' format for easier access 
-The reformatted data used (in helper.prepDataForCNN) can be downloaded from 
+All the .mat and .hdf5 files referenced in the code as well the reformatted data used (in helper.prepDataForCNN) can be downloaded from 
 ###### https://my.pcloud.com/publink/show?code=kZsxCO7ZdnzmYqXWO6ydqkC5kz114f5zUUaV  (Reformatted .h5)
 ###### http://ufldl.stanford.edu/housenumbers/ (Original .mat)
 
